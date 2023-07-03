@@ -1,0 +1,53 @@
+table {
+    border-collapse: separate;
+    border-spacing: 0 7px;
+    width: 70%;
+    margin: auto;
+}
+
+tr {
+    margin-bottom: 5px;
+}
+
+tr td:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+tr td:last-child {
+    border-radius: 0 5px 5px 0;
+}
+
+td {
+    text-align: center;
+    padding: 8px 3px 10px 15px;
+    background-color: var(--verde-claro);
+    color: #FFF;
+}
+
+.desc {
+    text-align: start;
+}
+
+td button {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+td svg {
+    height: 16px;
+    width: 16px;
+}
+
+button svg {
+    margin: 0;
+    color: var(--verde-escuro)
+}
+
+@media (max-width: 990px) {
+
+    table {
+        width: 82%;
+    }
+}
